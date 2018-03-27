@@ -1,0 +1,53 @@
+ul{
+	height:400px; 
+	width:60%;
+	margin: 0 auto;
+}
+ul{
+	overflow:hidden; 
+	overflow-y:scroll;
+}
+.btn {
+	border-radius: 10px;
+	border-color: black;
+	margin: 10px;
+}
+
+* {
+	font-family: Arial;
+}
+h1 {
+	font-size: 80px;
+}
+
+#panel {
+	max-width: 500px;
+	margin: 0 auto;
+    border-radius: 0px;
+}
+body {
+	background-color: #D2E5FF;
+}
+
+
+li {
+	list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+#chatTitle {
+	margin: 20px auto;
+}
+#title {
+	margin: 0 auto;
+	text-align: center;
+}
+#messageForm {
+	margin: 0 auto;
+	max-width: 200px;
+}
+
+a {
+	text-decoration: none;
+}
+

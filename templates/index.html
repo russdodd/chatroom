@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>ChatRoom</h1>
+</head>
+<body>
+	<div>
+		<h2>Enter an existing Chat Room</h2>
+	</div>
+	<div>
+		<form method="POST" action="/{{roomName}}" id="messageForm">
+    		<p>ID: </p><input type="text" name="message"   id="messageField" placeholder="e.g. ABC123">
+    		<input type="submit" value="Enter">
+		</form>
+	</div>
+	<div>
+		<h2>Or create new Chat Room</h2>
+	</div>
+	<div>
+		<form method="POST" action="/{{roomName}}" id="messageForm">
+    		<p>Name: </p><input type="text" name="message"   id="messageField" placeholder="e.g. Bobs Chatroom">
+    		<input type="submit" value="Enter">
+		</form>
+	</div>
+
+</body>
+</html>
